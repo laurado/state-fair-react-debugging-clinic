@@ -1,0 +1,43 @@
+$blue: #4a62d8;
+$yellow: #fbbe4f;
+$purple: #746bab;
+$teal: #76d0c0;
+$green: #1ab28a;
+
+.movie-container {
+  background-color: lighten( $teal, 10% );
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  border-radius: 5%;
+  padding-left: 10px;
+
+  ul {
+    width: 50%;
+    margin: auto;
+    color: $purple;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    background-color: $yellow;
+    border-radius: 5%;
+    color: $blue;
+    width: 40%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin: 5px;
+  }
+
+  form {
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+  }
+}
