@@ -1,0 +1,40 @@
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;
+$open-sans: 'Open Sans', sans-serif;
+
+// Color Variables
+$blue: #4a62d8;
+$yellow: #fbbe4f;
+$purple: #746bab;
+
+ul {
+  width: 50%;
+  margin: auto;
+  color: $purple;
+  font-family: $open-sans, sans-serif;
+}
+
+h1 {
+  font-family: $roboto-slab, sans-serif;
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  background-color: $yellow;
+  border-radius: 5%;
+  color: $blue;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
