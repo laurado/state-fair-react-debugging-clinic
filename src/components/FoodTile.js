@@ -1,12 +1,10 @@
 import React from 'react';
 
-const FoodTile = (props) => {
+const FoodTile = () => {
   return(
     <li>
-      {props.food}
+      {food}
       <button type="button" onClick={props.handleButtonClick}>Delete</button>
     </li>
   )
 }
-
-export default FoodTile;

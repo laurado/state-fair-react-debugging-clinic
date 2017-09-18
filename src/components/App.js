@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import FoodList from './FoodList';
-import FoodForm from './FoodForm';
 
 class App extends Component {
   constructor(props) {
@@ -45,12 +44,10 @@ class App extends Component {
 
   render() {
     return(
-      <div>
-        <h1>State Fair Noms</h1>
+      <h1>State Fair Noms</h1>
 
-        <FoodList foods={this.state.foodData} handleButtonClick={this.handleClick}/>
-        <FoodForm handleChange={this.handleChange} handleSubmit={this.handleSubmit} newFood={this.state.newFood}/>
-      </div>
+      <FoodList foods={this.state.foodData} handleButtonClick={this.handleClick}/>
+      <FoodForm handleChange={this.handleChange} handleSubmit={this.handleSubmit} newFood={this.state.newFood}/>
     );
   }
 };
