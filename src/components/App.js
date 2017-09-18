@@ -33,8 +33,8 @@ class App extends Component {
     event.preventDefault();
     let newKey = this.state.foodData.length + 1
     let newFoodPayload = {
-      key: newId,
-      food: this.state.movie
+      key: newKey,
+      food: this.state.newFood
     }
     let newFoodsArray = this.state.foodData.concat(newFoodPayload)
     this.setState({
