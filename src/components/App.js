@@ -45,8 +45,14 @@ class App extends Component {
     return(
       <h1>State Fair Noms</h1>
 
-      <FoodList foods={this.state.foodData} handleButtonClick={this.handleClick}/>
-      <FoodForm handleChange={this.handleChange} handleSubmit={this.handleSubmit} newFood={this.state.newFood}/>
+      <FoodList
+        foods={this.state.foodData}
+        handleButtonClick={this.handleClick}
+      />
+      <FoodForm
+        handleChange={this.handleChange} 
+        newFood={this.state.newFood}
+      />
     );
   }
 };
