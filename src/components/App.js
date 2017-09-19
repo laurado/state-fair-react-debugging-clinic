@@ -13,7 +13,6 @@ class App extends Component {
       ],
       newFood: ''
     }
-
     this.handleClick = this.handleClick.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -48,8 +47,15 @@ class App extends Component {
       <div>
         <h1>State Fair Noms</h1>
 
-        <FoodList foods={this.state.foodData} handleButtonClick={this.handleClick}/>
-        <FoodForm handleChange={this.handleChange} handleSubmit={this.handleSubmit} newFood={this.state.newFood}/>
+        <FoodList
+          foods={this.state.foodData}
+          handleButtonClick={this.handleClick}
+        />
+        <FoodForm
+          handleChange={this.handleChange}
+          handleSubmit={this.handleSubmit}
+          newFood={this.state.newFood}
+        />
       </div>
     );
   }
