@@ -1,32 +1,34 @@
 // Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 
+
 // Font Variables
-$roboto-slab: 'Roboto Slab', serif;
-$open-sans: 'Open Sans', sans-serif;
+$header: 'Mouse Memoirs', sans-serif;
+$list-font: 'Roboto Slab', serif;
 
 // Color Variables
-$blue: #4a62d8;
-$yellow: #fbbe4f;
-$purple: #746bab;
+$red: #BE1A23;
+$yellow: #FDDC7B;
+$green: #03A64D;
 
 ul {
+  color: $green;
+  font-family: $list-font, sans-serif;
   width: 50%;
   margin: auto;
-  color: $purple;
-  font-family: $open-sans, sans-serif;
 }
 
 h1 {
-  font-family: $roboto-slab, sans-serif;
+  color: $red;
+  font-size: 50px;
+  font-family: $header, sans-serif;
   text-align: center;
   margin: auto;
-  font-size: 50px;
+  margin-bottom: 10px;
   background-color: $yellow;
   border-radius: 5%;
-  color: $blue;
   width: 40%;
-  margin-bottom: 10px;
 }
 
 button {
